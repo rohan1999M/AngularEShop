@@ -1,0 +1,32 @@
+<p>admin-dashboard works!</p>
+
+<form [formGroup]="CatForm">
+ Add Category: <input type="text" formControlName="category">
+ <button type="button" (click)="add();">Add</button>
+</form>
+
+<button type="button" (click)="get();">show</button>
+<ul *ngFor="let item of categoryArray">
+    <li>{{item.categoryName}}</li>
+</ul>
+
+
+<hr>
+<form [formGroup]="ProductForm">
+   Product Name: <input type="text" formControlName="productName">
+    Description: <input type="text" formControlName="description">
+    Price: <input type="text" formControlName="price">
+    Category: <input type="text" formControlName="category">
+    <button type="button" (click)="addPorduct();">Add</button>
+   </form>
+   <hr>
+
+   <button type="button" (click)="getP();">Show Products</button>
+   <ul *ngFor="let pro of ProductArray">
+    <li>{{pro.category}}</li>
+    <p>{{pro.productName}}</p>
+    <p>{{pro.price}}</p>
+   </ul>
+   
+   <hr>
+   <!-- <button type="button" (click)="s();">Show categoryName</button> -->

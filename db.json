@@ -1,0 +1,62 @@
+{
+  "Category": [
+    {
+      "categoryName": "Toys",
+      "id": 1
+    },
+    {
+      "categoryName": "Cars",
+      "id": 2
+    },
+    {
+      "categoryName": "Bikes",
+      "id": 3
+    },
+    {
+      "categoryName": "DD",
+      "id": 4
+    },
+    {
+      "categoryName": null,
+      "id": 5
+    },
+    {
+      "categoryName": "Movies",
+      "id": 6
+    },
+    {
+      "categoryName": "tt",
+      "id": 7
+    }
+  ],
+  "Products": [
+    {
+      "productName": "jghj",
+      "description": "gjvj",
+      "category": "Bikes",
+      "price": "474",
+      "id": 1
+    },
+    {
+      "productName": "KTm",
+      "description": "gblack",
+      "category": "Bikes",
+      "price": "474",
+      "id": 2
+    },
+    {
+      "productName": "KTm",
+      "description": "gblack",
+      "category": "clothes",
+      "price": "474",
+      "id": 3
+    },
+    {
+      "productName": null,
+      "description": null,
+      "category": "Movies",
+      "price": null,
+      "id": 4
+    }
+  ]
+}
